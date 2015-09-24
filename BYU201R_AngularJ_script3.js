@@ -46,7 +46,7 @@ function avatarDirective () {
     link: link
   };
   
-  function link (scope) {
+  function link (scope) { /* [4] */
     if (!scope.user.avatarUrl) {
       scope.user.avatarUrl = 'http://thealmanac.org/assets/img/default_avatar.png';
     }
